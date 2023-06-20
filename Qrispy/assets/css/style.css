@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: "Spline Sans", sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: #222;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+a:hover{
+    color: #F58d17;
+}
+img{
+    width: 100%;
+}
+
+.btn{
+    border: none;
+    padding: 14px 38px;
+    border-radius: 0px;
+}
+.btn-brand{
+    color: #fff;
+    font-weight: 500;
+    background-color: #F58d17;
+    border-color: #F58d17;
+}
+.btn-brand:hover{
+    background-color: #d6801d;
+    border-color: #F58d17;
+    color: white;
+}
+#heroSlider h6::after,
+#heroSlider h6::before{
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+.slide-1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/cover1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide-2{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/cover2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgba(0,0,0,0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#about .divider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #F58d17;
+}
+
+.intro-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto; 
+    font-size: 16px;
+}
+
+#menu .nav-pills .nav-link{
+    background-color: #ffff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+}
+#menu .nav-pills .nav-link.active{
+    background-color: #F58d17;
+    color: #ffff;
+}
+.stars{
+    color: #F58d17;
+}
+
+.shadow-on-hover{
+    transition: all 0.3s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+}
