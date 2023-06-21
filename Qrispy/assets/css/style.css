@@ -114,3 +114,26 @@ section{
 .shadow-on-hover:hover{
     box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
 }
+
+/* Features */
+
+#features{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/cover2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.feature{
+    border: 2px solid rgba(225,255, 255,0.2)
+}
+
+.feature-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #F58d17;
+    color: #fff;
+    font-size: 34px;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
